@@ -22,6 +22,11 @@ header img {
     width: 300px; /* Ajustamos el tamaño de la imagen */
     height: 80px; /* Mantenemos la proporción de la imagen */
 }
+
+img {
+    border-radius: 10px;
+}
+
 h5 {
     max-width: 300px;
 }
@@ -90,7 +95,16 @@ button:hover {
     border-radius: 10px;
     background-color: #FF0000;
     margin-top: 20px;
-    font-size: 60px;
+    font-size: 30px;
+    color: #FFFFFF; /* Texto en blanco */
+}
+#desperdicio {
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #FF0000;
+    margin-top: 20px;
+    font-size: 30px;
     color: #FFFFFF; /* Texto en blanco */
 }
 

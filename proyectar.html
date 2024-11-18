@@ -4,30 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CANTARA</title>
+    <title>DESHUESE</title>
     <link href="css/main.css" rel="stylesheet" />
     <link rel="shortcut icon" href="imgs/icon.png">
 </head>
 <body>
     <header>
         <img src="imgs/logoeurosup.png" >
-        <h3>CANTARA <br>CALCULADORA DE PESO NETOS SOBRE CANASTAS</h3>
+        <h3>DESHUESE <br>CALCULADORA DE PESO NETOS SOBRE CANASTAS</h3>
     </header>
     <main>
         <form id="calculation-form">
-            <label for="taracanasta">Tara de Canasta:</label>
-            <select id="taracanasta" name="taracanasta" required>
-                <option value="1.8">1.8</option>
-                <option value="2.0">2.0</option>
-            </select>
-            <label for="numcanastas">Número de Canastas:</label>
-            <input type="number" step="any" id="numcanastas" name="numcanastas" required>
-            
-            <label for="pesobruto">Peso Bruto:</label>
-            <input type="number" step="any" id="pesobruto" name="pesobruto" required>
+            <label for="origen">INGRESA EL PESO TOTAL DE LAS PECCHUGAS A DESHUESAR </label>
+            <input id="origen" name="origen" required>
+            <p>Al dar click en calcular el sistema generará un aproximado de cuanto producto en peso debe quedar como resultado de la operación </p>
             <button type="submit">Calcular</button>
+            <button ><a href="index.html">Ir a inicio</a></button>
         </form>
-        <div id="resultado"></div>
+        <div id="resultado"></div> 
+        <div id="desperdicio"></div>
     </main>
     <script src="js/main.js"></script>
 </body>
